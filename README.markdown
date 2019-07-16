@@ -3,8 +3,6 @@ traverse
 
 Traverse and transform objects by visiting every node on a recursive walk.
 
-[![build status](https://secure.travis-ci.org/substack/js-traverse.png)](http://travis-ci.org/substack/js-traverse)
-
 examples
 ========
 
