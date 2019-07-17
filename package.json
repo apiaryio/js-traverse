@@ -1,14 +1,14 @@
 {
-    "name" : "traverse",
-    "version" : "0.6.3",
+    "name" : "@apiaryio/traverse",
+    "version" : "1.0.0",
     "description" : "traverse and transform objects by visiting every node on a recursive walk",
+    "license" : "MIT",
+    "engine" : { "node" : ">=0.6" },
     "main" : "index.js",
-    "bin" : {},
     "directories" : {
         "example" : "example",
         "test" : "test"
     },
-    "dependencies" : {},
     "devDependencies" : {
         "tap" : "~0.2.5"
     },
@@ -17,23 +17,9 @@
     },
     "repository" : {
         "type" : "git",
-        "url" : "git://github.com/substack/js-traverse.git"
+        "url" : "git://github.com/apiaryio/js-traverse.git"
     },
-    "homepage" : "https://github.com/substack/js-traverse",
-    "keywords" : [
-        "traverse",
-        "walk",
-        "recursive",
-        "map",
-        "forEach",
-        "deep",
-        "clone"
-    ],
-    "author" : {
-        "name" : "James Halliday",
-        "email" : "mail@substack.net",
-        "url" : "http://substack.net"
-    },
-    "license" : "MIT",
-    "engine" : { "node" : ">=0.6" }
+    "publishConfig": {
+        "registry": "https://registry.apiary-internal.com"
+    }
 }
